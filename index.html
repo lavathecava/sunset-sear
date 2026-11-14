@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunset & Sear | Steakhouse</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="side-backdrop" id="sideBackdrop"></div>
+
+<div class="layout">
+
+  <aside class="sidebar" id="sidebar">
+    <a class="logo" href="#" data-page="home">SUNSET <span>&</span> SEAR<span>.</span></a>
+
+    <nav class="side-nav">
+      <a href="#" data-page="home" class="active"><span>HOME</span><span class="nav-num">01</span></a>
+      <a href="#" data-page="menu"><span>THE STEAKS</span><span class="nav-num">02</span></a>
+      <a href="#" data-page="sides"><span>THE SIDES</span><span class="nav-num">03</span></a>
+      <a href="#" data-page="story"><span>OUR STORY</span><span class="nav-num">04</span></a>
+      <a href="#" data-page="visit"><span>VISIT US</span><span class="nav-num">05</span></a>
+    </nav>
+
+    <div class="side-foot">
+      <div class="side-hours"><strong>OPEN FIRES</strong>TUE – SUN<br>5 PM – LATE · GOLDEN HOUR 6–8</div>
+      <button class="side-cta" id="askEmber" type="button">TALK TO EMBER ✦</button>
+    </div>
+  </aside>
+
+  <div class="main-col">
+    <header class="topbar">
+      <a class="logo" href="#" data-page="home">SUNSET <span>&</span> SEAR<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </header>
+
+    <div class="scroll-area" id="scrollArea">
+      <main class="pages">
+
+  <div class="page active" id="page-home">
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="eyebrow">THE ART OF THE PERFECT SEAR</div>
+      <h1>Where the<br>sun sets,<br><span>the fire rises.</span></h1>
+      <p>Big steaks. Open flames. Golden-hour vibes. Welcome to Sunset & Sear, where every cut gets the spotlight it deserves.</p>
+    </div>
+
+    <div class="hero-note">
+      <strong>FIRE. FLAVOR. FEELING.</strong>
+      A steakhouse made for golden hour.
+    </div>
+
+    <div class="embers" aria-hidden="true">
+      <span class="ember" style="--l:6%;  --s:4px; --d:8s;  --dl:0s;   --dr:30px;"></span>
+      <span class="ember" style="--l:14%; --s:3px; --d:10s; --dl:2s;   --dr:-25px;"></span>
+      <span class="ember" style="--l:24%; --s:5px; --d:9s;  --dl:4s;   --dr:45px;"></span>
+      <span class="ember" style="--l:35%; --s:3px; --d:11s; --dl:1s;   --dr:-35px;"></span>
+      <span class="ember" style="--l:47%; --s:4px; --d:8s;  --dl:6s;   --dr:20px;"></span>
+      <span class="ember" style="--l:58%; --s:3px; --d:12s; --dl:3s;   --dr:-45px;"></span>
+      <span class="ember" style="--l:68%; --s:5px; --d:9s;  --dl:7s;   --dr:35px;"></span>
+      <span class="ember" style="--l:78%; --s:4px; --d:10s; --dl:5s;   --dr:-20px;"></span>
+      <span class="ember" style="--l:88%; --s:3px; --d:8s;  --dl:8s;   --dr:40px;"></span>
+      <span class="ember" style="--l:95%; --s:4px; --d:11s; --dl:2.5s; --dr:-30px;"></span>
+    </div>
+  </section>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      <div class="ticker-inner">
+        <span>✦ BIG FLAVOR</span>
+        <span>✦ OPEN-FLAME GRILLING</span>
+        <span>✦ BEAUTIFUL CUTS</span>
+        <span>✦ GOLDEN HOUR DINING</span>
+        <span>✦ PERFECTLY SEARED</span>
+        <span>✦ STEAKHOUSE FAVORITES</span>
+      </div>
+      <div class="ticker-inner" aria-hidden="true">
+        <span>✦ BIG FLAVOR</span>
+        <span>✦ OPEN-FLAME GRILLING</span>
+        <span>✦ BEAUTIFUL CUTS</span>
+        <span>✦ GOLDEN HOUR DINING</span>
+        <span>✦ PERFECTLY SEARED</span>
+        <span>✦ STEAKHOUSE FAVORITES</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUNSET FEATURE -->
+
+  <section class="sunset-banner">
+    <div class="eyebrow" style="justify-content:center">YOUR TABLE IS CALLING</div>
+    <h2>Chase the sunset.<br><span class="accent">Stay for the steak.</span></h2>
+    <p>Golden skies above. A perfect sear below.<br>That's our kind of evening.</p>
+    <a href="#" data-page="menu" class="primary">FIND YOUR FAVORITE CUT ↗</a>
+  </section>
+
+        </div><!-- /page-home -->
+
+  <!-- STEAK MENU -->
+
+  <div class="page" id="page-menu">
+  <section id="menu">
+    <div class="section-top">
+      <div class="eyebrow">STRAIGHT FROM THE GRILL</div>
+      <h2>Meet your new <span class="accent">favorite cut.</span></h2>
+      <p>From richly marbled ribeye to tender filet mignon, every steak has its own personality. Pick your favorite.</p>
+    </div>
+
+    <div class="menu-grid">
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85" alt="Grilled steak with charred edges and herbs" loading="lazy">
+          <span class="tag">THE CLASSIC</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>Ribeye</h3><span class="price">$32</span></div>
+          <p>Rich marbling, a deep sear, and a beautifully savory finish.</p>
+          <div class="steak-meta">RICH & JUICY · 12 OZ</div>
+        </div>
+      </article>
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=85" alt="Thick grilled steak served on a plate" loading="lazy">
+          <span class="tag">HOUSE FAVORITE</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>Filet Mignon</h3><span class="price">$38</span></div>
+          <p>Exceptionally tender beef with a delicate texture and a golden crust.</p>
+          <div class="steak-meta">TENDER & ELEGANT · 8 OZ</div>
+        </div>
+      </article>
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=85" alt="Restaurant steak dinner with grilled beef" loading="lazy">
+          <span class="tag">THE SHOWSTOPPER</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>New York Strip</h3><span class="price">$35</span></div>
+          <p>A bold, beefy cut with a satisfying bite and crisp caramelized edges.</p>
+          <div class="steak-meta">BOLD & BALANCED · 12 OZ</div>
+        </div>
+      </article>
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=900&q=85" alt="Grilled porterhouse steak" loading="lazy">
+          <span class="tag">BIG APPETITE</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>Porterhouse</h3><span class="price">$46</span></div>
+          <p>The best of both worlds: strip steak and tender filet in one cut.</p>
+          <div class="steak-meta">BIG & BOLD · 20 OZ</div>
+        </div>
+      </article>
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1546241072-48010ad2862c?auto=format&fit=crop&w=900&q=85" alt="Grilled sirloin steak with herbs" loading="lazy">
+          <span class="tag">THE CROWD-PLEASER</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>Top Sirloin</h3><span class="price">$27</span></div>
+          <p>Lean, hearty, and full of classic grilled-beef flavor.</p>
+          <div class="steak-meta">LEAN & SAVORY · 10 OZ</div>
+        </div>
+      </article>
+
+      <article class="steak-card">
+        <div class="steak-image">
+          <img src="https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&w=900&q=85" alt="Sliced grilled steak with a caramelized crust" loading="lazy">
+          <span class="tag">CHEF'S PICK</span>
+        </div>
+        <div class="steak-info">
+          <div class="steak-title"><h3>Flat Iron</h3><span class="price">$29</span></div>
+          <p>Wonderfully tender with a rich crust and plenty of character.</p>
+          <div class="steak-meta">TENDER & BEEFY · 10 OZ</div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  </div><!-- /page-menu -->
+
+  <!-- SIDES MENU -->
+
+  <div class="page" id="page-sides">
+  <section class="sides-section" id="sides">
+    <div class="section-top">
+      <div class="eyebrow">THE PERFECT SIDEKICK</div>
+      <h2>Make it a <span class="accent">full-on feast.</span></h2>
+      <p>Crispy, creamy, buttery, and fresh. These are the sides that make a great steak dinner even better.</p>
+    </div>
+
+    <div class="sides-grid">
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=85" alt="Golden crispy French fries" loading="lazy">
+        <div class="side-info">
+          <h3>Skin-on Fries</h3>
+          <p>Golden, crunchy fries finished with flaky salt.</p>
+          <div class="side-bottom"><span>Extra crispy</span><span class="side-price">$7</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1604917877934-07d8d248d396?auto=format&fit=crop&w=700&q=85" alt="Creamy mashed potatoes" loading="lazy">
+        <div class="side-info">
+          <h3>Garlic Mash</h3>
+          <p>Whipped potatoes with roasted garlic and butter.</p>
+          <div class="side-bottom"><span>Rich & creamy</span><span class="side-price">$8</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=700&q=85" alt="Grilled vegetables" loading="lazy">
+        <div class="side-info">
+          <h3>Charred Greens</h3>
+          <p>Seasonal greens kissed by the grill with lemon.</p>
+          <div class="side-bottom"><span>Fresh off fire</span><span class="side-price">$9</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=700&q=85" alt="Comforting pasta dish" loading="lazy">
+        <div class="side-info">
+          <h3>Smoked Mac</h3>
+          <p>Comfort-food macaroni in a creamy cheese sauce.</p>
+          <div class="side-bottom"><span>Cheesy favorite</span><span class="side-price">$9</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85" alt="Fresh garden salad" loading="lazy">
+        <div class="side-info">
+          <h3>Garden Salad</h3>
+          <p>Crisp greens, ripe tomatoes, and tangy house dressing.</p>
+          <div class="side-bottom"><span>Bright & fresh</span><span class="side-price">$8</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=85" alt="Pasta tossed with herbs" loading="lazy">
+        <div class="side-info">
+          <h3>Parmesan Pasta</h3>
+          <p>Buttery pasta tossed with parmesan and cracked pepper.</p>
+          <div class="side-bottom"><span>Comfort classic</span><span class="side-price">$10</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85" alt="Warm baked bread" loading="lazy">
+        <div class="side-info">
+          <h3>Skillet Cornbread</h3>
+          <p>Warm, buttery cornbread with a touch of honey.</p>
+          <div class="side-bottom"><span>Warm & golden</span><span class="side-price">$6</span></div>
+        </div>
+      </article>
+
+      <article class="side-card">
+        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=85" alt="Colorful vegetables and greens" loading="lazy">
+        <div class="side-info">
+          <h3>Seasonal Veggies</h3>
+          <p>A colorful mix of market vegetables, lightly grilled.</p>
+          <div class="side-bottom"><span>Seasonal pick</span><span class="side-price">$8</span></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  </div><!-- /page-sides -->
+
+  <!-- OUR STORY -->
+
+  <div class="page" id="page-story">
+  <section class="story" id="story">
+    <div class="story-image">
+      <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1100&q=85" alt="Freshly grilled steak presented for dinner" loading="lazy">
+      <div class="image-label">Made for the moment.</div>
+    </div>
+
+    <div class="story-copy">
+      <div class="eyebrow">MORE THAN A MEAL</div>
+      <h2>Good food.<br><span class="accent">Long evenings.</span></h2>
+      <p>Some meals are worth slowing down for. The table fills, the grill crackles, and the sky turns every shade of amber.</p>
+      <p>Sunset & Sear is a fictional steakhouse concept built around the simple pleasure of a beautifully cooked steak and the people you share it with.</p>
+
+      <div class="story-points">
+        <div class="story-point"><span>✦</span> Steakhouse-inspired menu</div>
+        <div class="story-point"><span>✦</span> Fire-kissed flavors and hearty sides</div>
+        <div class="story-point"><span>✦</span> Sunset colors and relaxed atmosphere</div>
+      </div>
+
+      <a href="#" data-page="visit" class="primary">EXPLORE THE EXPERIENCE ↗</a>
+    </div>
+  </section>
+  </div><!-- /page-story -->
+
+  <!-- VISIT -->
+
+  <div class="page" id="page-visit">
+  <section class="visit" id="visit">
+    <div>
+      <div class="eyebrow">COME ON IN</div>
+      <h2>A place for <span class="accent">good evenings.</span></h2>
+      <p>Planning a dinner, celebrating something special, or just craving a great steak? This is your invitation to slow down and enjoy the moment.</p>
+      <p><strong style="color:var(--gold)">Please note:</strong> Sunset & Sear is a fictional restaurant concept. The menu and prices are illustrative, not actual business information.</p>
+      <div class="visit-chips">
+        <span class="visit-chip">Tue – Sun</span>
+        <span class="visit-chip">5 PM – Late</span>
+        <span class="visit-chip">Golden Hour Specials</span>
+        <span class="visit-chip">Walk-ins Welcome</span>
+      </div>
+      <a href="#" data-page="home" class="secondary">BACK TO HOME ↑</a>
+    </div>
+
+    <div class="visit-box">
+      <h3>The Details</h3>
+      <div class="visit-line"><span>Restaurant</span><strong>Sunset & Sear</strong></div>
+      <div class="visit-line"><span>Specialty</span><strong>Grilled Steaks</strong></div>
+      <div class="visit-line"><span>Atmosphere</span><strong>Warm & Welcoming</strong></div>
+      <div class="visit-line"><span>Best enjoyed</span><strong>At golden hour 🌅</strong></div>
+      <div class="visit-line"><span>Dress code</span><strong>Come as you are</strong></div>
+    </div>
+  </section>
+  </div><!-- /page-visit -->
+
+      </main>
+
+      <footer>
+        <a class="logo" href="#" data-page="home">SUNSET <span>&</span> SEAR<span>.</span></a>
+        <p>© 2026 Sunset & Sear · A fictional steakhouse concept.</p>
+        <p>MADE WITH FIRE & FLAVOR 🥩</p>
+      </footer>
+    </div><!-- /scroll-area -->
+  </div><!-- /main-col -->
+</div><!-- /layout -->
+
+<!-- EMBER · AI HOST -->
+<div class="agent">
+  <div class="agent-panel" id="agentPanel" hidden>
+    <div class="agent-head">
+      <div>
+        <strong>EMBER</strong>
+        <span>AI HOST · SUNSET &amp; SEAR</span>
+      </div>
+      <button class="agent-close" id="agentClose" aria-label="Close chat">✕</button>
+    </div>
+    <div class="agent-msgs" id="agentMsgs"></div>
+    <div class="agent-chips" id="agentChips"></div>
+    <form class="agent-form" id="agentForm">
+      <input type="text" id="agentInput" placeholder="Ask about steaks, hours, the vibe…" autocomplete="off" maxlength="200">
+      <button type="submit" aria-label="Send message">➤</button>
+    </form>
+  </div>
+  <button class="agent-fab" id="agentFab" aria-label="Talk to Ember, the AI host" aria-expanded="false">✦</button>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/ember.js"></script>
+
+</body>
+</html>
